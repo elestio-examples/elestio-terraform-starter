@@ -11,5 +11,13 @@ You can use as an example this repository to quickly deploy your infrastructure 
 ## Availables commands
 
 - Preview the changes: `terraform plan -var-file="secrets.tfvars"`
+
 - Apply the changes: `terraform apply -var-file="secrets.tfvars"`
+
+- Show the current state: `terraform show` (sensitives values can be obmitted, you can read them in `terraform.tfstate` file)
+
 - Destroy all the infrastructure: `terraform destroy -var-file="secrets.tfvars"`
+
+## Documentation
+
+Check the [documentation](https://registry.terraform.io/providers/elestio/elestio/latest/docs) to know what resources are available.
