@@ -4,7 +4,7 @@ You can use as an example this repository to quickly deploy your infrastructure 
 
 ## Instructions
 
-1. Rename `secrets.tfvars.exemple` file to `secrets.tfvars` and fill in the values.
+1. Rename `secrets.tfvars.example` file to `secrets.tfvars` and fill in the values.
 2. Add the resources you want in `main.tf`.
 3. Run `terraform init`
 
